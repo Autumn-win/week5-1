@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int a;
+    int b;
+    printf(" please input a \n");
+    scanf(" %d",&a);
+    printf(" please input b  \n");
+    scanf(" %d",&b);
+    if( a > b)
+    printf(" S = %d",a);
+    else
+    printf("S = %d",b);
+    
+    return 0;
+    
+    
+}
